@@ -1,0 +1,17 @@
+# Development and Test environments use the Twilio Test Credentials. 
+# Production uses Live Credentials.
+
+development:
+  account_sid: TEST_SID
+  auth_token: TEST_TOKEN
+  from_number: +15005550006
+  
+test: 
+  account_sid: TEST_SID
+  auth_token: TEST_TOKEN
+  from_number: +15005550006
+  
+production:
+  account_sid: LIVE_SID
+  auth_token: LIVE_TOKEN
+  from_number: TWILIO_PHONE_NUMBER
